@@ -1,0 +1,7 @@
+nav {
+  background-color: #ff7b00 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.navbar .nav-link {
+  font-weight: 650;
+}
