@@ -5,3 +5,37 @@ nav {
 .navbar .nav-link {
   font-weight: 650;
 }
+.button-hover {
+  outline: black !important;
+}
+.button-hover:hover {
+  transition: 0.5s;
+}
+.icon {
+  z-index: 2;
+}
+.social-icon {
+  font-size: 30px;
+}
+.social-tiktok {
+  font-size: 28px;
+  margin-top: 2px;
+}
+.icon-hover {
+  transition: 0.5s;
+}
+a .icon-hover:hover {
+  color: #ffffff;
+}
+.jumbotron {
+  background-color: #face91;
+  padding-top: 8rem;
+}
+
+/* breakpoint */
+@media (max-width: 768px) {
+  .text-hero {
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+}
