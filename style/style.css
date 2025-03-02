@@ -41,7 +41,7 @@ section {
 a .icon-hover:hover {
   color: #ffffff;
 }
-.jumbotron svg {
+.wave {
   transform: translateY(1px);
 }
 /* jumbotron end */
@@ -52,7 +52,18 @@ a .icon-hover:hover {
   color: #ff7b00;
 }
 /* about end */
+/* skill */
+#skill {
+  background-color: #face91;
+}
+.icon-skill {
+  width: 5rem;
+}
+.javascript {
+  width: 4rem !important;
+}
 
+/* skill end */
 /* breakpoint */
 @media (max-width: 768px) {
   /* jumbotron */
