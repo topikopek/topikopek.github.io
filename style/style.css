@@ -1,9 +1,23 @@
+body {
+  min-height: 10000px;
+}
+/* navbar */
 nav {
   background-color: #ff7b00 !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 .navbar .nav-link {
   font-weight: 650;
+}
+/* navbar end */
+
+/* jumbotron */
+section {
+  padding-top: 5rem;
+}
+.jumbotron {
+  background-color: #face91;
+  padding-top: 10rem;
 }
 .button-hover {
   outline: black !important;
@@ -27,15 +41,30 @@ nav {
 a .icon-hover:hover {
   color: #ffffff;
 }
-.jumbotron {
-  background-color: #face91;
-  padding-top: 8rem;
+.jumbotron svg {
+  transform: translateY(1px);
 }
+/* jumbotron end */
+
+/* about */
+#about h2,
+#about span {
+  color: #ff7b00;
+}
+/* about end */
 
 /* breakpoint */
 @media (max-width: 768px) {
+  /* jumbotron */
   .text-hero {
     padding-top: 2rem;
     padding-left: 2rem;
   }
+  /* jumbotron end */
+  /* about */
+  .text-about {
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+  /* about end */
 }
