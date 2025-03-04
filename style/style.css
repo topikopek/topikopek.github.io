@@ -21,6 +21,7 @@ section {
 }
 .button-hover {
   outline: black !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 .button-hover:hover {
   transition: 0.5s;
@@ -64,6 +65,12 @@ a .icon-hover:hover {
 }
 
 /* skill end */
+/* contact */
+
+textarea {
+  height: 7rem;
+}
+/* contact end */
 /* breakpoint */
 @media (max-width: 768px) {
   /* jumbotron */
